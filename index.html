@@ -7,48 +7,62 @@
     <link charset="utf-8" href="style.css" media="screen" rel="stylesheet" title="no title" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script type="text/html" id="picTmpl">
-      <img src="<%= imageUrl %>">
+      <img src="<%= coverPhoto %>">
+      <h1><%= AlbumTitle %></h1>
     </script>
     </head>
 
   <body>
+
+
 <header>
     <nav class="navbar">
-  <h1>Lauren's Photo Albums</h1>
+  <h1>My Albums</h1>
 
 
     </nav>
 </header>
 
 <section class="wrapper">
+
+  <section class="allpicsview hidden">
+  <div></div>
+  <div></div>
+  <div></div>
+  </section>
+
+  <section class="singlepicview hidden">
+  <div></div>
+  </section>
+
   <div class="allcolumns">
             <div class="column1">
-                  <h1>One</h1>
+                <a href="#">One</a>
                 <img src="" alt="">
             </div>
 
             <div class="column2">
-            <h1>Two</h1>
+          <a href="#">Two</a>
             <img src="" alt="">
             </div>
 
             <div class="column3">
-              <h1>Three</h1>
+              <a href="#">Three</a>
               <img src="" alt="">
             </div>
 
             <div class="column1r2">
-              <h1>Four</h1>
+              <a href="#">Four</a>
                 <img src="" alt="">
             </div>
 
             <div class="column2r2">
-              <h1>Five</h1>
-            <img src="" alt="">
+              <a href="#">Five</a>
+              <img src="" alt="">
             </div>
 
             <div class="column3r2">
-              <h1>Six</h1>
+              <a href="#">Six</a>
               <img src="" alt="">
             </div>
 </div>

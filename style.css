@@ -9,6 +9,13 @@
     font-size: 60px;
     padding-top: 10px; }
 
+img {
+  width: 100%;
+  height: 100%; }
+
+.column1, .column1r2, .column3r2 {
+  vertical-align: top; }
+
 .column1, .column2, .column3 {
   width: 25%;
   border: 2px solid black;
@@ -17,11 +24,12 @@
   margin-top: 62px;
   height: 291px;
   background-color: #ededed; }
-  .column1 h1, .column2 h1, .column3 h1 {
+  .column1 a, .column2 a, .column3 a {
     color: #c6756d;
     font-family: 'Amatic SC';
     font-size: 45px;
-    text-align: center; }
+    text-decoration: none;
+    padding: 0; }
 
 .column1r2, .column2r2, .column3r2 {
   width: 25%;
@@ -31,8 +39,23 @@
   margin-top: 62px;
   height: 291px;
   background-color: #ededed; }
-  .column1r2 h1, .column2r2 h1, .column3r2 h1 {
+  .column1r2 a, .column2r2 a, .column3r2 a {
     color: #c6756d;
     font-family: 'Amatic SC';
     font-size: 45px;
-    text-align: center; }
+    text-decoration: none; }
+
+.allpicsstyle {
+  font-family: 'Amatic SC';
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 10px; }
+
+.hidden {
+  display: none; }
+
+.allpicsview {
+  content: "Alaska";
+  width: 100%;
+  height: 100px; }
