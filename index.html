@@ -8,7 +8,10 @@
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script type="text/html" id="picTmpl">
       <img src="<%= coverPhoto %>">
-      <h1><%= AlbumTitle %></h1>
+      <!-- <h1><%= AlbumTitle %></h1> -->
+    </script>
+    <script type="text/html" id="threePicTmpl">
+      <img src="<%= imageUrl %>">
     </script>
     </head>
 
@@ -26,13 +29,43 @@
 <section class="wrapper">
 
   <section class="allpicsview hidden">
-  <div></div>
-  <div></div>
-  <div></div>
+    <section class="sidebar">
+        <a href="" class="home">*Home*</a>
+        <a href="" class="ak">Alaska</a>
+        <a href="" class="it">Italy</a>
+        <a href="" class="nz">New Zealand</a>
+        <a href="" class="nz2">New Zealand Pt. 2</a>
+        <a href="" class="fam">Family</a>
+        <a href="" class="frnds">Friends</a>
+    </section>
+
+      <section class="threepics">
+        <div class="pic1">
+            <a href="#"></a>
+            <img src="" alt="">
+        </div>
+
+        <div class="pic2">
+        <a href="#"></a>
+        <img src="" alt="">
+        </div>
+
+        <div class="pic3">
+          <a href="#"></a>
+          <img src="" alt="">
+        </div>
+
+
+      </section>
+
   </section>
 
   <section class="singlepicview hidden">
-  <div></div>
+        <div class="lastsidebar"></div>
+          <a href="">*Home*</a>
+        <div>
+
+  </div>
   </section>
 
   <div class="allcolumns">

@@ -108,8 +108,8 @@ photos: [{
 
 
         },
-{ albumName : "2014",
-      AlbumTitle : "2014",
+{ albumName : "Friends",
+      AlbumTitle : "Friends",
       coverPhoto : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/10377634_10204131572073792_8985141782019065734_n.jpg?oh=af5e0a9db8a31dfacd6bc37f04f71e5a&oe=56864EED",
       photos: [{
             imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/10377634_10204131572073792_8985141782019065734_n.jpg?oh=af5e0a9db8a31dfacd6bc37f04f71e5a&oe=56864EED"  ,
