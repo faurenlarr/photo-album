@@ -8,11 +8,19 @@
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script type="text/html" id="picTmpl">
       <img src="<%= coverPhoto %>">
+      <span class='hidden'><%=albumName%></span>
       <!-- <h1><%= AlbumTitle %></h1> -->
     </script>
     <script type="text/html" id="threePicTmpl">
       <img src="<%= imageUrl %>">
     </script>
+
+    <!-- <script type="text/html" id="onepicTmpl">
+      <img src="<%= imageUrl %>">
+      <span class='hidden'><%=photoName%></span>
+      <h1><%= AlbumTitle %></h1>
+    </script> -->
+
     </head>
 
   <body>
@@ -39,6 +47,7 @@
         <a href="" class="frnds">Friends</a>
     </section>
 
+
       <section class="threepics">
         <div class="pic1">
             <a href="#"></a>
@@ -61,10 +70,25 @@
   </section>
 
   <section class="singlepicview hidden">
-        <div class="lastsidebar"></div>
-          <a href="">*Home*</a>
-        <div>
 
+<div class="sidebar2 hidden">
+          <a href="" class="home">*Home*</a>
+          <a href="" class="ak">Alaska</a>
+          <a href="" class="it">Italy</a>
+          <a href="" class="nz">New Zealand</a>
+          <a href="" class="nz2">New Zealand Pt. 2</a>
+          <a href="" class="fam">Family</a>
+          <a href="" class="frnds">Friends</a>
+</div>
+
+    <a href="">
+        <div class="onepic">
+        </div>
+    </a>
+    <div class="buttons">
+    <input type="button" value=" " class="btn1">
+    <input type="button" value=" " class="btn2">
+    <input type="button" value=" " class="btn3">
   </div>
   </section>
 

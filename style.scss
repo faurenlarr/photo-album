@@ -77,7 +77,7 @@ img {
   color: white;
   background-color: #cccccc;
   position: fixed;
-  margin-top: -111px;
+  margin-top: -141px;
   padding-top: 47px;
   display: inline-block;
   // position: fixed;
@@ -92,6 +92,28 @@ img {
 
       }
 };
+
+.sidebar2 {
+  height: 1000px;
+  width: 15%;
+  color: white;
+  background-color: #cccccc;
+  position: fixed;
+  margin-top: -141px;
+  padding-top: 47px;
+  display: inline-block;
+  // position: fixed;
+      a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Amatic SC';
+        padding-top: 20px;
+
+      }
+}
 
 .hidden  {
   display: none;
@@ -110,30 +132,83 @@ img {
   padding-top: 100px;
 
 }
+
+
 .pic1, .pic2, .pic3 {
   display: inline-block;
   // border: 1px solid #cccccc;
   width: 33%;
   height: 312px;
   height: 100px;
+  height: 272px;
 
 };
+// .bottombar {
+// width: 100%;
+// background-color: rgb(198, 117, 109);
+// height: 100px;
+// margin-top: 66px;
+// }
 
-.lastsidebar {
-  width: 100%;
-  height: 500px;
-  border: 1px solid #cccccc;
-  height: 1000px;
-  width: 15%;
-  color: white;
-  background-color: #cccccc;
-  position: fixed;
-  margin-top: -111px;
-  padding-top: 47px;
+// .sidebar2 {
+//   background-color: #cccccc;
+//   display: inline-block;
+//   position: absolute;
+//  height: 800px;
+//  width: 15%;
+//  padding-top: 100px;
+//     margin-top: -272px;
+//
+//           a {
+//             text-decoration: none;
+//             display: block;
+//             font-family: 'Amatic SC';
+//             font-size: 40px;
+//             text-align: center;
+//             color: white;
+//
+//
+//           }
+// }
+
+// .lastsidebar {
+//   width: 100%;
+//   height: 500px;
+//   border: 1px solid #cccccc;
+//   height: 1000px;
+//   width: 15%;
+//   color: white;
+//   background-color: #cccccc;
+//   position: fixed;
+//   margin-top: -111px;
+//   padding-top: 47px;
+//   display: inline-block;
+//   // position: fixed;
+//   font-family: 'Amatic SC';
+//   font-size: 45px;
+//   text-align: center;
+//
+// //
+// // }
+.onepic {
+  width: 50%;
+  height: 350px;
+  background-color: green;
+  position: relative;
+  margin-left: 482px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+
+};
+.btn1, .btn2, .btn3 {
   display: inline-block;
-  // position: fixed;
-    a{
-      font-family: 'Amatic SC';
-    }
-
+  background-color: #cccccc;
+  position: relative;
+  width: 5%;
+    height: 31px;
+    border-radius: 10px;
+}
+.buttons {
+  padding-left: 800px;
+  margin-bottom: 100px;
 }
