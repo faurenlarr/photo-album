@@ -339,10 +339,12 @@ $(document).ready(function(){
 
       $('.pic1').click(function(event){
         event.preventDefault();
+        $('.onepic').html($(this).html());
         $('.singlepicview').removeClass("hidden");
         $('.allpicsview').addClass("hidden");
         $('.sidebar2').removeClass("hidden");
         $('.navbar').text(" ");
+        // $('.btn1').html($(this).html());
         //
 
 
@@ -366,24 +368,49 @@ $(document).ready(function(){
 
       $('.pic2').click(function(event){
         event.preventDefault();
+        $('.onepic').html($(this).html());
         $('.singlepicview').removeClass("hidden");
         $('.allpicsview').addClass("hidden");
         $('.sidebar2').removeClass("hidden");
-
           $('.navbar').text(" ");
+          // $('.btn2').html($(this).html());
+
       });
 
       $('.pic3').click(function(event){
         event.preventDefault();
+        $('.onepic').html($(this).html());
         $('.singlepicview').removeClass("hidden");
         $('.allpicsview').addClass("hidden");
         $('.sidebar2').removeClass("hidden");
-
         $('.navbar').text(" ");
+        // $('.btn3').html($(this).html());
+
       });
 
-// single pic
+      // ----------
 
+      $('.onepic').click(function(event){
+        event.preventDefault();
+        $('.allpicsview').removeClass("hidden");
+        $('.singlepicview').addClass("hidden");
+
+
+      });
+
+
+
+
+      // $('.onepic').click(function(event){
+      //   event.preventDefault();
+      //   $('.allpicsview').removeClass("hidden");
+      //   $('.singlepicview').addClass("hidden");
+      //   $('.navbar').html('.it');
+      //
+      // });
+
+
+// ----------------
 
 
 

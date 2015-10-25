@@ -58,7 +58,7 @@ img {
   color: white;
   background-color: #cccccc;
   position: fixed;
-  margin-top: -141px;
+  margin-top: -169px;
   padding-top: 47px;
   display: inline-block; }
   .sidebar a {
@@ -76,7 +76,7 @@ img {
   color: white;
   background-color: #cccccc;
   position: fixed;
-  margin-top: -141px;
+  margin-top: -265px;
   padding-top: 47px;
   display: inline-block; }
   .sidebar2 a {
@@ -102,6 +102,9 @@ img {
   padding-left: 359px;
   padding-top: 100px; }
 
+header {
+  margin-top: 50px; }
+
 .pic1, .pic2, .pic3 {
   display: inline-block;
   width: 33%;
@@ -111,8 +114,7 @@ img {
 
 .onepic {
   width: 50%;
-  height: 350px;
-  background-color: green;
+  height: 450px;
   position: relative;
   margin-left: 482px;
   margin-top: 100px;
