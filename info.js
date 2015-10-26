@@ -66,7 +66,7 @@ photos: [{
       },
 
   { albumName : "More NZ",
-        AlbumTitle : "New Zealand Pt.2",
+        AlbumTitle : "New Zealand Pt. 2",
         coverPhoto : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/183829_1919578553409_4530812_n.jpg?oh=7b3a92737d1dc1356aa502a1362849e8&oe=56CD7F5C",
         photos: [{
               imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/183829_1919578553409_4530812_n.jpg?oh=7b3a92737d1dc1356aa502a1362849e8&oe=56CD7F5C"  ,

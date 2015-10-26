@@ -7,12 +7,14 @@
     <link charset="utf-8" href="style.css" media="screen" rel="stylesheet" title="no title" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script type="text/html" id="picTmpl">
-      <img src="<%= coverPhoto %>">
-      <span class='hidden'><%=albumName%></span>
+      <img data-album-name="<%= albumName %>" src="<%= coverPhoto %>">
       <!-- <h1><%= AlbumTitle %></h1> -->
     </script>
     <script type="text/html" id="threePicTmpl">
       <img src="<%= imageUrl %>">
+    </script>
+    <script type="text/html" id="sidebuttons">
+      <a href=""  data-side-shit></a>
     </script>
 
 
