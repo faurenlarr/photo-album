@@ -91,11 +91,11 @@ photos: [{
   AlbumTitle : "My Family",
   coverPhoto : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-ash2/t31.0-8/1796883_10203489692467203_2117569576_o.jpg",
   photos: [{
-        imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-ash2/t31.0-8/1796883_10203489692467203_2117569576_o.jpg"  ,
+        imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10887261_10206038257019724_7332472608795093927_o.jpg ",
         photoName: "Eric and me"
 
           }, {
-            imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/1502278_10205817910191191_3184139088682696602_o.jpg"  ,
+            imageUrl : "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10464074_10204339739677852_1494197556048952732_n.jpg?oh=b27f65af9d987a6195ba37369e3687f6&oe=568927D7"  ,
             photoName: "kids"
 
 
