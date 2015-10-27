@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
- // albumPage.init();
+
 
 // });
 // var albumPage = {
@@ -244,6 +244,31 @@ $('.sidebar').on('click','a', function(event) {
      $('.singlepicview').addClass("hidden");
 
 });
+$('.sidebar2').on('click','a', function(event) {
+  event.preventDefault();
+  console.log(this);
+  item = $(this);
+  var newthingy = $(this).text();
+  console.log('albumname', newthingy);
+  var correctThingy = _.filter(albums, function(item) {
+    return newthingy === item.albumName || newthingy === item.AlbumTitle;
+  });
+  console.log('albumobject', correctThingy);
+  var threePicTemplate = _.template($('#threePicTmpl').html());
+  correctThingy[0].photos.forEach(function(photo, idx) {
+        var newpicstring = "";
+
+        newpicstring = threePicTemplate(photo);
+        $(('.pic')+(idx+1)).html(newpicstring);
+     });
+     $('.allpicsview').removeClass("hidden");
+     $('.allcolumns').addClass("hidden");
+     $('.navbar').text(newthingy);
+    //  $('.sidebar2').addClass("hidden");
+     $('.singlepicview').addClass("hidden");
+
+});
+
 
 
           //        $('.ak').click(function(event){
